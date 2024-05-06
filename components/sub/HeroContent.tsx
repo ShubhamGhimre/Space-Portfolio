@@ -27,19 +27,22 @@ const HeroContent = () => {
                     className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
                 >
                     <span>
-                        Providing
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                            Hello there!{" "}
+                        </span>
+                        {""}
+                        I&apos;m Shubham
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                             {" "}
-                            the best{" "}
+                             Ghimire{" "}
                         </span>
-                        project exprience
                     </span>
                 </motion.div>
                 <motion.p
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600px]'
                 >
-                    &apos;m a Front End Developer with experience in building web applications. I specialize in React, Next.js, and Tailwind CSS. I am passionate about creating responsive and user-friendly web applications.
+                    &apos;m a Front End Developer with experience in building web applications. I specialize in React, Next.js,  and Tailwind CSS. I am passionate about creating responsive and user-friendly web applications.
 
                 </motion.p>
                 <motion.a
